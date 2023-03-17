@@ -35,7 +35,7 @@ hdf5_major=`echo $hdf5_ver | cut -d "." -f 1-2`
 UNIDATA=https://downloads.unidata.ucar.edu/
 OPENMPI=http://www.open-mpi.org/software/ompi/v${ompi_major}/downloads
 HDFGROUP=https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-${hdf5_major}/hdf5-${hdf5_ver}/src
-ZLIB=http://zlib.net
+ZLIB=http://zlib.net/fossils
 
 export LD_LIBRARY_PATH=$DEST/lib:$LD_LIBRARY_PATH
 
